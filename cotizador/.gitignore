@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.streamlit/
+.ipynb_checkpoints/
+# Parquet grandes fuera de /data si los hubiera
+*.parquet
+!data/Rentabilidad.parquet
+/.idea/
+/*.iml
+*.pdf
+*.xlsb
+*.xlsx
+!data/Vendedores zona centro APP.xlsx
